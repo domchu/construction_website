@@ -84,10 +84,12 @@
   background-color: #fff;
   color: #000;
   border: unset;
-  border-radius: 10px;
+  border-radius: 5px;
   font-weight: 600;
   margin: 10px;
   padding: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .header {
@@ -181,6 +183,8 @@
 
 .btn {
   margin-top: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .button1:hover {
@@ -281,7 +285,9 @@
   background-color: #fdd100;
   color: #fff;
   border: unset;
-  border-radius: 10px;
+  border-radius: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .button2:hover {
@@ -309,7 +315,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 40px;
+  margin-top: 10pc;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -341,11 +347,13 @@
   background-color: #fdd100;
   color: #fff;
   border: unset;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 10px;
   padding: 7px;
   text-align: center;
   margin-top: 40px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .tomm {
@@ -361,6 +369,8 @@
   text-align: center;
   color: #fff;
   margin-top: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .tom:hover {
@@ -506,7 +516,20 @@
   width: 400px;
   margin-top: 10px;
   margin-left: 20px;
-  border: 1px solid #000 "> } .input2{ height:100px; width:400px; margin-top:10px; margin-left:20px; border:1px solid #000";
+  border: 1px solid #000;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.input2 {
+  height: 100px;
+  width: 400px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  padding: 20px;
+  border: 1px solid #000;
 }
 
 .request {
@@ -523,10 +546,17 @@
   background-color: #fdd100;
   color: #000;
   border: unset;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 30px 0 0 45%;
   padding: 12px;
   font-weight: 600;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.button6:hover {
+  background-color: #000;
+  color: #e1f3fd;
 }
 
 .black {
@@ -553,15 +583,24 @@
 .mail {
   width: 210px;
   height: 40px;
+  padding: 10px;
 }
 
 .yellow {
   width: 150px;
   height: 40px;
-  background-color: yellow;
-  color: #fff;
+  background-color: #fdd100;
+  color: #000;
   border: unset;
+  border-radius: 5px;
   font-weight: 600;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.yellow:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .news {
@@ -594,7 +633,7 @@
 
 .dot2 {
   color: #fff;
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */
