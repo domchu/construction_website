@@ -5,30 +5,21 @@
   list-style-type: none;
   font-family: sans-serif;
 }
-
 .headertop {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   height: 40px;
   padding: 40px 10px 20px 10px;
-}
 
-.headertop .logo {
-  margin-left: 70px;
-  font-size: 30px;
+  .logo {
+    margin-left: 70px;
+    font-size: 30px;
+  }
 }
-
 .menu li {
   display: inline-block;
 }
-
 .navlinks li::after {
   content: "";
   display: block;
@@ -37,25 +28,19 @@
   background-color: #fdd100;
   font-weight: 800;
   width: 0%;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 .navlinks li:hover::after {
   width: 100%;
 }
-
 .menu li a {
   font-size: 10px;
   color: #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 20px;
   text-transform: capitalize;
   margin: 7px;
 }
-
 .search {
   font-size: 25px;
   margin-right: 50px;
@@ -68,16 +53,10 @@
   padding: 5px;
   margin-right: 50px;
 }
-
 .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .btn a {
   width: 150px;
   height: 50px;
@@ -89,149 +68,94 @@
   margin: 10px;
   padding: 15px;
 }
-
 .header {
   height: 550px;
   background-color: #e1f3fd;
   border-bottom-left-radius: 70px;
 }
-
 .carimg {
   height: 380px;
   margin-right: 20px;
 }
-
 .textbutdiv {
   margin-left: 30px;
 }
-
 .textimg {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-top: 50px;
 }
-
 .building {
   font-size: 50px;
   font-weight: 600;
 }
-
 .home {
   color: gold !important;
 }
-
 .angleleft {
   height: 40px;
   width: 40px;
   border-radius: 20px;
   background-color: #fdd100;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   color: #fff;
 }
-
 .angleright {
   height: 40px;
   width: 40px;
   border-radius: 20px;
   background-color: #fdd100;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   margin-left: 10px;
 }
-
 .angles {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 15px 0 0 40px;
 }
-
 .textbutdiv p {
   margin-top: 20px;
 }
-
 .btn {
   margin-top: 50px;
 }
-
 .button1:hover {
   background-color: #000;
   color: #fff;
 }
-
 .belowservicetxt {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 30px;
 }
-
 .meetinglines {
   height: 7px;
   width: 100px;
   background-color: #e1f3fd;
 }
-
 .services {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: auto;
 }
-
 .meetinglines2 {
   height: 2px;
   width: 70px;
   background-color: #fdd100;
 }
-
 .lines {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  justify-content: center;
+  align-items: end;
 }
-
 .pngtext {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .container {
   width: 280px;
   border-radius: 15px;
@@ -239,26 +163,18 @@
   border-bottom: 10px solid #fdd100;
   margin: 20px;
 }
-
 .container p {
   margin-top: 20px;
   margin-left: 20px;
 }
-
 .pngtext h4 {
   margin-left: 7px;
 }
-
 .maincontainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 30px;
 }
-
 .button2 {
   width: 150px;
   height: 40px;
@@ -269,58 +185,41 @@
   margin: 10px;
   padding: 12px;
 }
-
 .button2:hover {
   background-color: #000;
   color: #fff;
 }
-
 .butbut {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
+
   padding: 20px 150px 0 150px;
 }
-
 .butbut button2 {
   padding: auto;
 }
-
 .ban {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 40px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .company {
   margin: 30px 0 0 0;
 }
-
 .button11:hover {
   background-color: #000;
   color: #fff;
 }
-
 .engineers {
   height: 300px;
   margin-left: 30px;
 }
-
 .gold {
   height: 7px;
   width: 70px;
   background-color: #fdd100;
 }
-
 .tom {
   width: 150px;
   height: 40px;
@@ -333,123 +232,81 @@
   text-align: center;
   margin-top: 40px;
 }
-
 .tomm {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: #fff;
   margin-top: 10px;
 }
-
 .tom:hover {
   background-color: #000;
   color: #fff;
 }
-
 .archi {
   color: #fdd100;
   margin-top: 20px;
 }
-
 .sandy {
   margin-top: 20px;
 }
-
 .sandydiv {
   text-align: center;
 }
-
 .div {
   margin-right: 35px;
 }
-
 .allimgtxt {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 40px;
 }
-
 .texthead {
   padding-top: 30px 0 0 0;
 }
-
 .roundimg {
   border: 10px solid black;
   border-radius: 50%;
   margin-left: 30px;
 }
-
 .leftface {
   margin: 0 40px 70px 0;
 }
-
 .john {
   text-align: center;
 }
-
 .due {
   margin: 20px 70px 0 0;
 }
-
 .project {
   margin: 4px 70px 0 0;
   color: #fdd100;
   font-size: 13px;
 }
-
 .rectangle {
   width: 400px;
   height: 90px;
   background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .blue {
   background-color: #e1f3fd;
   height: 450px;
 }
-
 .flexer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 70px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .mmm {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 40px;
   padding-top: 30px 0 0 0 !important;
 }
-
 .circle {
   height: 40px;
   width: 40px;
@@ -457,7 +314,6 @@
   background-color: #fdd100;
   margin: 0 10px 0 0;
 }
-
 .circle3 {
   height: 40px;
   width: 40px;
@@ -465,44 +321,41 @@
   background-color: #000;
   margin: 0 0 0 10px;
 }
-
 .circle2 {
   height: 40px;
   width: 40px;
   border-radius: 50%;
   background-color: #000;
 }
-
 .cycles {
   margin-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .ipsum {
   margin: 20px 60px 0 0;
 }
-
 .input {
   height: 30px;
   width: 400px;
   margin-top: 10px;
   margin-left: 20px;
-  border: 1px solid #000 "> } .input2{ height:100px; width:400px; margin-top:10px; margin-left:20px; border:1px solid #000";
+  border: 1px solid #000
+    ">
+  }
+  .input2{
+  height:100px;
+        width:400px;
+  margin-top:10px;
+              margin-left:20px;
+              border:1px solid #000";
 }
-
 .request {
   padding: 30px 0 0 0;
 }
-
 .alllink {
   margin: 40px 0 0 33%;
 }
-
 .button6 {
   width: 150px;
   height: 40px;
@@ -514,33 +367,23 @@
   padding: 12px;
   font-weight: 600;
 }
-
 .black {
   background-color: #2f2f30;
   margin-top: 50px;
   height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .bottom {
   color: #fff;
   margin-top: 15px;
   font-weight: 600;
 }
-
 .mail {
   width: 210px;
   height: 40px;
 }
-
 .yellow {
   width: 150px;
   height: 40px;
@@ -549,38 +392,30 @@
   border: unset;
   font-weight: 600;
 }
-
 .news {
   color: #fff;
   margin-bottom: 10px;
 }
-
 .tent {
   margin-top: 50px;
 }
-
 .map {
   height: 300px;
 }
-
 .mtop {
   margin-top: 40px;
 }
-
 .dot {
   color: #fff;
   font-size: 20px;
 }
-
 .lastb {
   background-color: #2f2f30;
   text-align: center;
   height: 60px;
 }
-
 .dot2 {
   color: #fff;
   font-size: 12px;
   margin-top: 10px;
 }
-/*# sourceMappingURL=style.css.map */
