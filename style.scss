@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   list-style-type: none;
-  font-family: sans-serif;
+  font-family: "sans-serif";
 }
 .headertop {
   display: flex;
@@ -74,16 +74,21 @@
   border-bottom-left-radius: 70px;
 }
 .carimg {
-  height: 380px;
+  height: 350px;
   margin-right: 20px;
 }
 .textbutdiv {
   margin-left: 30px;
+  margin-top: 35px;
+}
+.textbutdiv p {
+  font-size: 20px;
 }
 .textimg {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 50px;
+  padding: 20px 0;
 }
 .building {
   font-size: 50px;
