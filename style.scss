@@ -10,6 +10,7 @@
   justify-content: space-between;
   align-items: center;
   height: 40px;
+  // min-height: 40px;
   padding: 40px 50px 20px 10px;
 
   .logo {
@@ -377,7 +378,9 @@
   padding: 30px 0 0 0;
 }
 .alllink {
-  margin: 40px 0 0 33%;
+  // margin: 40px 0 0 33%;
+  display: block;
+  text-align: center;
 }
 .button6 {
   width: 150px;
@@ -453,4 +456,62 @@
   color: #fff;
   font-size: 18px;
   margin-top: 10px;
+}
+.bars {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  .navlinks li {
+    display: none;
+  }
+  .bars {
+    display: block;
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .textimg {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 40px;
+  }
+  .carimg {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  .btn a {
+    margin-bottom: 20px;
+  }
+  .serv {
+    margin-top: 7rem;
+  }
+  .ban {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-around;
+    // margin: 30px 12px;
+  }
+  .engineers {
+    margin-top: 20px;
+    padding: 30px;
+  }
+  .allimgtxt {
+    display: flex;
+    flex-wrap: wrap;
+    // padding: 14px;
+  }
+  .blue {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  alllink {
+    display: flex;
+    flex-direction: column;
+  }
+  .black {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
