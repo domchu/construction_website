@@ -3,6 +3,8 @@
   padding: 0;
   text-decoration: none;
   list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "sans-serif";
 }
 
@@ -94,13 +96,22 @@
 
 .header {
   height: 550px;
+  min-height: 550px;
   background-color: #e1f3fd;
   border-bottom-left-radius: 70px;
 }
 
 .carimg {
-  height: 350px;
-  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .textbutdiv {
@@ -299,11 +310,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: auto;
   padding: 20px 150px 0 150px;
 }
 
@@ -369,6 +384,7 @@
   text-align: center;
   color: #fff;
   margin-top: 10px;
+  height: 5px;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -715,6 +731,67 @@
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .maincontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .general-container {
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .lastb {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .input,
+  .input2 {
+    width: 300px;
+  }
+  .yellow,
+  .mail {
+    margin: 10px;
+  }
+  .search {
+    display: none;
+  }
+  .button1 {
+    font-size: 10px;
+  }
+  .carimg {
+    margin-top: 40px;
+    width: 300px;
+    height: 250px;
+  }
+  .flexer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .circle,
+  .contact,
+  .news {
+    margin-left: 10px;
+  }
+  .btn a {
+    background-color: #fdd100;
+    color: #000;
   }
 }
 /*# sourceMappingURL=style.css.map */
