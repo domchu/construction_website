@@ -8,6 +8,10 @@
   font-family: "sans-serif";
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .headertop {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -297,6 +301,7 @@
   color: #fff;
   border: unset;
   border-radius: 5px;
+  margin-left: 100px;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -670,7 +675,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin-left: 430px;
+  margin-left: 680px;
   z-index: 100;
 }
 
