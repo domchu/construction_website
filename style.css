@@ -658,9 +658,64 @@
   display: none;
 }
 
+.close {
+  display: none;
+}
+
+.back-to-top {
+  position: absolute;
+  font-size: 40px;
+  color: #fff;
+  background-color: #fdd100;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 430px;
+  z-index: 100;
+}
+
 @media screen and (max-width: 700px) {
   .navlinks li {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .search {
     display: none;
+  }
+  .navlinks li a {
+    color: #fff;
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: 20px;
+  }
+  .navlinks {
+    display: none;
+    background-color: black;
+    margin: 10px;
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    z-index: 1000;
+    color: #fff;
+    top: 0;
+    left: 0;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .close {
+    display: none;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    z-index: 2000;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 510px;
   }
   .bars {
     display: block;
