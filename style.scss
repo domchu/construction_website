@@ -494,6 +494,22 @@ body {
   margin-left: 680px;
   z-index: 100;
 }
+@media screen and (max-width: 900px) {
+  .maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navlinks li {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+}
 @media screen and (max-width: 700px) {
   .navlinks li {
     display: block;
